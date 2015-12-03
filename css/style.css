@@ -33,3 +33,7 @@ input {
     width: 80%;
     margin: auto;
 }   
+
+.hide {
+    display: none;
+}
