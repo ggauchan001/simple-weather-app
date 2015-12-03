@@ -14,12 +14,10 @@ $(document).ready(function () {
 
         getFormData: function () {
             if (weatherApp.weatherApiKey === null || weatherApp.weatherApiKey === "") {
-                weatherApp.weatherApiKey = $("#apikey").val();
-                weatherApp.trim();
+                weatherApp.weatherApiKey = $("#apikey").val().trim();
                 weatherApp.saveApiKey();
             }
-            var zip = $("#zip").val();
-            zip.trim();
+            var zip = $("#zip").val().trim();
             if (zip === null || zip.length <5) {
                 weatherApp.$targetArea.html("Enter a zip code.");
                 
