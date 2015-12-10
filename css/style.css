@@ -19,6 +19,7 @@ header {
 #form {
     width: 50%;
     margin: auto;
+    
 }
 
 label {
@@ -36,4 +37,12 @@ input {
 
 .hide {
     display: none;
+}
+
+li{
+    display: block;
+    //width: 400px;
+    height: 40px;
+    font-size: 18px;   
+    
 }
